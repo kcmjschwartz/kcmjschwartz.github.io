@@ -124,3 +124,17 @@ h1 {
 .get-in-touch{
   max-width: 800px;
 }
+
+/* !Footer Section */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+}
+.footer img{
+  height:40px;
+  width: 40px;
+}
