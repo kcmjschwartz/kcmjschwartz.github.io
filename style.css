@@ -41,8 +41,24 @@ h1 {
 }
 
 /*! ABOUT ME Section */
-.aboutMe{
+.aboutMeContent{
+  max-width: 800px;
+
+}
+.aboutHeading{
   text-align: center;
+}
+
+.headshot img{
+  border-radius: 100%;
+  display: block;
+  max-height: 200px;
+  
+}
+
+.aboutMe p{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 
