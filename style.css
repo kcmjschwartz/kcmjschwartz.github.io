@@ -85,9 +85,15 @@ h1 {
   }
   
   /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
+  .flip-card-front{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(7, 7, 7);
+    
+
   }
   
   /* Style the back side */
@@ -109,28 +115,12 @@ h1 {
     text-decoration: none;
     color: white;    
   }
-#yoda{
-  background-color: rgb(84, 245, 9);
-}
-#staticLayout{
-  background-color: rgb(159, 9, 245);
-}
-#apiOne{
-  background-color: rgb(241, 245, 9);
-  
-}
-#apiTwo{
-  background-color: rgb(245, 123, 9);
-}
 
-#blueBadge{
-  background-color: rgb(33, 9, 245);
-}
-#redBadge{
-  background-color: rgb(245, 9, 127);
-}
 
 /* ! CONTACT ME SECTION */
 .contactMe{
   text-align: center;
+}
+.get-in-touch{
+  max-width: 800px;
 }
