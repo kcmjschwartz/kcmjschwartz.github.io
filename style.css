@@ -61,7 +61,34 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+.skills{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+}
 
+
+.skill-card{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  width: 200px;
+  height: 100px;
+  padding: 25px;
+  }
+
+  .skill-card p{
+    font-size:small ;
+  }
+  .skill-card img {
+    height:40px;
+    width: 40px;
+    transition: transform 1s;
+  }
+  .skill-card img:hover {
+    transform: scale(1.15);
+  }
 
 
 
