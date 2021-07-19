@@ -30,6 +30,7 @@ h1 {
 .navbar {
   background-color: transparent;
   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .animateNavbar{
@@ -42,7 +43,7 @@ h1 {
 
 /*! ABOUT ME Section */
 .aboutMeContent{
-  max-width: 800px;
+  max-width: 1200px;
 
 }
 .aboutHeading{
@@ -55,6 +56,11 @@ h1 {
   max-height: 200px;
   
 }
+.headshot a{
+  margin-left:27px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+}
 
 .aboutMe p{
   font-family: 'Roboto', sans-serif;
@@ -63,6 +69,7 @@ h1 {
 
 .skills{
   text-align: center;
+
   font-family: 'Roboto', sans-serif;
   color: rgb(255, 255, 255);
 }
@@ -85,6 +92,12 @@ h1 {
   }
   .skill-card img:hover {
     transform: scale(1.15);
+  }
+  .skillFlexbox {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    max-width:1200px;
   }
 
 
@@ -134,11 +147,13 @@ h1 {
   
   .flip-card-front{
     display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: white;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center; 
     background-color: rgb(7, 7, 7);
+    padding: 10px;
   }
   
   /* Style the back side */
